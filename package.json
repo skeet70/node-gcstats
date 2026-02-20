@@ -1,12 +1,12 @@
 {
   "name": "@sematext/gc-stats",
-  "version": "1.5.9",
+  "version": "2.0.0",
   "description": "Exposes node v8 garbage collection stats",
   "main": "index.js",
   "repository": "git@github.com:sematext/node-gcstats.git",
   "license": "Unlicense",
   "engines": {
-    "node": ">=6"
+    "node": ">=18"
   },
   "scripts": {
     "install": "npx node-pre-gyp install --fallback-to-build",
@@ -19,9 +19,9 @@
     "release": "release-it"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "^1.0.10",
+    "@mapbox/node-pre-gyp": "^2.0.3",
     "depcheck": "^1.4.3",
-    "nan": "^2.17.0"
+    "nan": "^2.25.0"
   },
   "gypfile": true,
   "devDependencies": {
